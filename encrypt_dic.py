@@ -41,7 +41,11 @@ def encrypt_data(js_file_path, js_function_name, input_file_path, output_file_na
 if len(sys.argv) != 5 or sys.argv[1] in ['-h', '--help']:
     print("Usage: python encrypt_dic.py <js_file_path> <js_function_name> <input_file_path> <output_file_name>")
     print("Options:")
-    print("-h, --help            显示帮助信息")
+    print("-h, --help                    显示帮助信息     ")
+    print("<js_file_path>                js文件路径       ")
+    print("<js_function_name>            js文件中调用的方法")
+    print("<input_file_path>             字典路径         ")
+    print("<output_file_name>            加密后字典       ")
     sys.exit(1)
 
 js_file_path = sys.argv[1]
