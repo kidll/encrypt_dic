@@ -8,6 +8,8 @@
  `  pip install PyExecJS`
 #### 使用方法
 本项目请使用python3执行<br /><br />
-` python3 encrypt_dic.py <js_file_path> <js_function_name> <input_file_path> <output_file_name>`
+` Usage: python3 encrypt_dic.py <js_file_path> <js_function_name> <input_file_path> <output_file_name>`
 
-![image](https://github.com/kidll/encrypt_dic/assets/48195024/6f223989-10bb-4582-aadc-6180544c1e53)
+![image](https://github.com/kidll/encrypt_dic/assets/48195024/ff56edb5-638e-41a4-af65-a30ff14b4496)
+
+
